@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="sam-desktop" id="0" name="MeetingTests" package="com.rapidcommittee" tests="3" time="0.193" timestamp="2012-06-09T19:29:56">
+      <properties />
+
+      <testcase classname="com.rapidcommittee.MeetingTests" name="timeTravellingValidationTest1" time="0.126" />
+
+      <testcase classname="com.rapidcommittee.MeetingTests" name="timeTravellingValidationTest2" time="0.041" />
+
+      <testcase classname="com.rapidcommittee.MeetingTests" name="timeTravellingValidationTest3" time="0.022" />
+
+      <system-out><![CDATA[--Output from timeTravellingValidationTest1--
+grails.validation.ValidationErrors: 2 errors
+Field error in object 'com.rapidcommittee.Meeting' on field 'begin': rejected value [Sat Jun 09 15:29:56 EDT 2012]; codes [com.rapidcommittee.Meeting.begin.validator.error.com.rapidcommittee.Meeting.begin,com.rapidcommittee.Meeting.begin.validator.error.begin,com.rapidcommittee.Meeting.begin.validator.error.java.util.Date,com.rapidcommittee.Meeting.begin.validator.error,meeting.begin.validator.error.com.rapidcommittee.Meeting.begin,meeting.begin.validator.error.begin,meeting.begin.validator.error.java.util.Date,meeting.begin.validator.error,com.rapidcommittee.Meeting.begin.validator.invalid.com.rapidcommittee.Meeting.begin,com.rapidcommittee.Meeting.begin.validator.invalid.begin,com.rapidcommittee.Meeting.begin.validator.invalid.java.util.Date,com.rapidcommittee.Meeting.begin.validator.invalid,meeting.begin.validator.invalid.com.rapidcommittee.Meeting.begin,meeting.begin.validator.invalid.begin,meeting.begin.validator.invalid.java.util.Date,meeting.begin.validator.invalid,validator.invalid.com.rapidcommittee.Meeting.begin,validator.invalid.begin,validator.invalid.java.util.Date,validator.invalid]; arguments [begin,class com.rapidcommittee.Meeting,Sat Jun 09 15:29:56 EDT 2012]; default message [Property [{0}] of class [{1}] with value [{2}] does not pass custom validation]
+Field error in object 'com.rapidcommittee.Meeting' on field 'end': rejected value [Fri Jun 08 15:29:56 EDT 2012]; codes [com.rapidcommittee.Meeting.end.validator.error.com.rapidcommittee.Meeting.end,com.rapidcommittee.Meeting.end.validator.error.end,com.rapidcommittee.Meeting.end.validator.error.java.util.Date,com.rapidcommittee.Meeting.end.validator.error,meeting.end.validator.error.com.rapidcommittee.Meeting.end,meeting.end.validator.error.end,meeting.end.validator.error.java.util.Date,meeting.end.validator.error,com.rapidcommittee.Meeting.end.validator.invalid.com.rapidcommittee.Meeting.end,com.rapidcommittee.Meeting.end.validator.invalid.end,com.rapidcommittee.Meeting.end.validator.invalid.java.util.Date,com.rapidcommittee.Meeting.end.validator.invalid,meeting.end.validator.invalid.com.rapidcommittee.Meeting.end,meeting.end.validator.invalid.end,meeting.end.validator.invalid.java.util.Date,meeting.end.validator.invalid,validator.invalid.com.rapidcommittee.Meeting.end,validator.invalid.end,validator.invalid.java.util.Date,validator.invalid]; arguments [end,class com.rapidcommittee.Meeting,Fri Jun 08 15:29:56 EDT 2012]; default message [Property [{0}] of class [{1}] with value [{2}] does not pass custom validation]
+--Output from timeTravellingValidationTest2--
+grails.validation.ValidationErrors: 1 errors
+Field error in object 'com.rapidcommittee.Meeting' on field 'begin': rejected value [Fri Jun 08 15:29:56 EDT 2012]; codes [com.rapidcommittee.Meeting.begin.validator.error.com.rapidcommittee.Meeting.begin,com.rapidcommittee.Meeting.begin.validator.error.begin,com.rapidcommittee.Meeting.begin.validator.error.java.util.Date,com.rapidcommittee.Meeting.begin.validator.error,meeting.begin.validator.error.com.rapidcommittee.Meeting.begin,meeting.begin.validator.error.begin,meeting.begin.validator.error.java.util.Date,meeting.begin.validator.error,com.rapidcommittee.Meeting.begin.validator.invalid.com.rapidcommittee.Meeting.begin,com.rapidcommittee.Meeting.begin.validator.invalid.begin,com.rapidcommittee.Meeting.begin.validator.invalid.java.util.Date,com.rapidcommittee.Meeting.begin.validator.invalid,meeting.begin.validator.invalid.com.rapidcommittee.Meeting.begin,meeting.begin.validator.invalid.begin,meeting.begin.validator.invalid.java.util.Date,meeting.begin.validator.invalid,validator.invalid.com.rapidcommittee.Meeting.begin,validator.invalid.begin,validator.invalid.java.util.Date,validator.invalid]; arguments [begin,class com.rapidcommittee.Meeting,Fri Jun 08 15:29:56 EDT 2012]; default message [Property [{0}] of class [{1}] with value [{2}] does not pass custom validation]
+--Output from timeTravellingValidationTest3--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from timeTravellingValidationTest1--
+--Output from timeTravellingValidationTest2--
+--Output from timeTravellingValidationTest3--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="sam-desktop" id="1" name="CommitteeControllerTests" package="com.rapidcommittee" tests="1" time="0.932" timestamp="2012-06-09T19:29:44">
+      <properties />
+
+      <testcase classname="com.rapidcommittee.CommitteeControllerTests" name="testSomething" time="0.674">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.rapidcommittee.CommitteeControllerTests.testSomething(CommitteeControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="sam-desktop" id="2" name="CommitteeMembershipTests" package="com.rapidcommittee" tests="1" time="0.626" timestamp="2012-06-09T19:29:43">
+      <properties />
+
+      <testcase classname="com.rapidcommittee.CommitteeMembershipTests" name="testSomething" time="0.338">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.rapidcommittee.CommitteeMembershipTests.testSomething(CommitteeMembershipTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="sam-desktop" id="3" name="CommitteeTests" package="com.rapidcommittee" tests="1" time="0.54" timestamp="2012-06-09T19:29:45">
+      <properties />
+
+      <testcase classname="com.rapidcommittee.CommitteeTests" name="testSomething" time="0.338">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.rapidcommittee.CommitteeTests.testSomething(CommitteeTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="sam-desktop" id="4" name="MeetingControllerTests" package="com.rapidcommittee" tests="1" time="0.602" timestamp="2012-06-09T19:29:46">
+      <properties />
+
+      <testcase classname="com.rapidcommittee.MeetingControllerTests" name="testSomething" time="0.6">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.rapidcommittee.MeetingControllerTests.testSomething(MeetingControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="sam-desktop" id="5" name="MeetingTests" package="com.rapidcommittee" tests="1" time="0.596" timestamp="2012-06-09T19:29:46">
+      <properties />
+
+      <testcase classname="com.rapidcommittee.MeetingTests" name="testSomething" time="0.288">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.rapidcommittee.MeetingTests.testSomething(MeetingTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="sam-desktop" id="6" name="UserControllerTests" package="com.rapidcommittee" tests="1" time="0.84" timestamp="2012-06-09T19:29:43">
+      <properties />
+
+      <testcase classname="com.rapidcommittee.UserControllerTests" name="testSomething" time="0.469">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.rapidcommittee.UserControllerTests.testSomething(UserControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="sam-desktop" id="7" name="UserTests" package="com.rapidcommittee" tests="1" time="0.425" timestamp="2012-06-09T19:29:42">
+      <properties />
+
+      <testcase classname="com.rapidcommittee.UserTests" name="testSomething" time="0.218">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.rapidcommittee.UserTests.testSomething(UserTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

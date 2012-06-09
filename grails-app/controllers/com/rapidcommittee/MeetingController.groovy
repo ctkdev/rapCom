@@ -1,6 +1,6 @@
 package com.rapidcommittee
 
 class MeetingController {
-
-    def index() { }
+	def scaffold = true
+    /* def index() { } */
 }

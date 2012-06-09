@@ -22,6 +22,6 @@ class User {
    String password
    
 	String toString() {
-		firstName + " " + lastName
+		"${firstName} ${lastName}"
 	} 
 }

@@ -1,8 +1,11 @@
 package com.rapidcommittee
 
 class UserController {
-
-    def index() { }
+	def scaffold = true
+	
+	/* def index() {
+		
+	} */
 	
 	def login = {
 		
