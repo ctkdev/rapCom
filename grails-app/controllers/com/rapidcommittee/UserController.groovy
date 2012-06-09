@@ -4,7 +4,9 @@ class UserController {
 
     def index() { }
 	
-	def login = {}
+	def login = {
+		
+	}
 	def logout = {
 		session.user = null
 		session.invalidate()
