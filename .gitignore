@@ -1,2 +1,4 @@
 # don't track classes
 *.class
+
+*~
