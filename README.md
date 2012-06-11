@@ -17,3 +17,5 @@ LESS is just fancy CSS3).
 For the login, I did not implement any password hashing which of course 
 isn't realistic, but adding a SHA codec and passing the password through
 it before insertion and during login wouldn't be too difficult.
+
+For bonus points, I added a simple .gitignore.

@@ -1,4 +1,5 @@
 # don't track classes
 *.class
 
+# don't track backup files
 *~
