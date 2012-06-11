@@ -1,15 +1,10 @@
 Testsuite: com.rapidcommittee.UserTests
-Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.425 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 3.094 sec
 ------------- Standard Output ---------------
---Output from testSomething--
+--Output from testToString--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testSomething--
+--Output from testToString--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.218 sec
-	FAILED
-junit.framework.AssertionFailedError: Implement me
-junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at com.rapidcommittee.UserTests.testSomething(UserTests.groovy:15)
-
+Testcase: testToString took 2.608 sec

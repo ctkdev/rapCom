@@ -19,14 +19,14 @@ class MeetingTests {
     void timeTravelingValidationTest1() {
 		def meet = new Meeting(begin: new Date(), end: new Date() - 1, committee: new Committee(name: "test"))
 		
-		assertFalse "Validation should fail", meet.validate()
+		assertFalse "The beginning of a meeting cannot be after the end", meet.validate()
 	}
 	
 	@Test
 	void timeTravelingValidationTest2() {
 		def meet = new Meeting(begin: new Date() - 1, end: new Date() + 1, committee: new Committee(name: "test"))
 		
-		assertFalse "Validation should fail", meet.validate()
+		assertFalse "A meeting cannot begin in the past", meet.validate()
 	}
 	
 	@Test

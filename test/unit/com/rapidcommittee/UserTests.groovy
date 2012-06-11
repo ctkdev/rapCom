@@ -10,8 +10,9 @@ import org.junit.*
  */
 @TestFor(User)
 class UserTests {
-
-    void testSomething() {
-       fail "Implement me"
-    }
+    void testToString() {
+		def user = new User(firstName: "Joe", lastName: "Smith", email: "test@example.com", password: "top_secret")
+		
+		assertEquals "Joe Smith", user.toString()
+	}
 }

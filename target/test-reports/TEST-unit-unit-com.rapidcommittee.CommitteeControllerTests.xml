@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="sam-desktop" name="com.rapidcommittee.CommitteeControllerTests" tests="1" time="0.932" timestamp="2012-06-09T19:29:44">
+<testsuite errors="0" failures="1" hostname="sam-desktop" name="com.rapidcommittee.CommitteeControllerTests" tests="1" time="1.715" timestamp="2012-06-11T01:14:29">
   <properties />
-  <testcase classname="com.rapidcommittee.CommitteeControllerTests" name="testSomething" time="0.674">
+  <testcase classname="com.rapidcommittee.CommitteeControllerTests" name="testSomething" time="1.012">
     <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
 	at com.rapidcommittee.CommitteeControllerTests.testSomething(CommitteeControllerTests.groovy:15)
 </failure>

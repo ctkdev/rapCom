@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="sam-desktop" name="com.rapidcommittee.UserTests" tests="1" time="0.425" timestamp="2012-06-09T19:29:42">
+<testsuite errors="0" failures="0" hostname="sam-desktop" name="com.rapidcommittee.UserTests" tests="1" time="3.094" timestamp="2012-06-11T01:14:16">
   <properties />
-  <testcase classname="com.rapidcommittee.UserTests" name="testSomething" time="0.218">
-    <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at com.rapidcommittee.UserTests.testSomething(UserTests.groovy:15)
-</failure>
-  </testcase>
-  <system-out><![CDATA[--Output from testSomething--
+  <testcase classname="com.rapidcommittee.UserTests" name="testToString" time="2.608" />
+  <system-out><![CDATA[--Output from testToString--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testSomething--
+  <system-err><![CDATA[--Output from testToString--
 ]]></system-err>
 </testsuite>

@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="sam-desktop" name="com.rapidcommittee.MeetingTests" tests="3" time="0.193" timestamp="2012-06-09T19:29:56">
+<testsuite errors="0" failures="0" hostname="sam-desktop" name="com.rapidcommittee.MeetingTests" tests="3" time="0.717" timestamp="2012-06-11T01:15:21">
   <properties />
-  <testcase classname="com.rapidcommittee.MeetingTests" name="timeTravellingValidationTest1" time="0.126" />
-  <testcase classname="com.rapidcommittee.MeetingTests" name="timeTravellingValidationTest2" time="0.041" />
-  <testcase classname="com.rapidcommittee.MeetingTests" name="timeTravellingValidationTest3" time="0.022" />
-  <system-out><![CDATA[--Output from timeTravellingValidationTest1--
-grails.validation.ValidationErrors: 2 errors
-Field error in object 'com.rapidcommittee.Meeting' on field 'begin': rejected value [Sat Jun 09 15:29:56 EDT 2012]; codes [com.rapidcommittee.Meeting.begin.validator.error.com.rapidcommittee.Meeting.begin,com.rapidcommittee.Meeting.begin.validator.error.begin,com.rapidcommittee.Meeting.begin.validator.error.java.util.Date,com.rapidcommittee.Meeting.begin.validator.error,meeting.begin.validator.error.com.rapidcommittee.Meeting.begin,meeting.begin.validator.error.begin,meeting.begin.validator.error.java.util.Date,meeting.begin.validator.error,com.rapidcommittee.Meeting.begin.validator.invalid.com.rapidcommittee.Meeting.begin,com.rapidcommittee.Meeting.begin.validator.invalid.begin,com.rapidcommittee.Meeting.begin.validator.invalid.java.util.Date,com.rapidcommittee.Meeting.begin.validator.invalid,meeting.begin.validator.invalid.com.rapidcommittee.Meeting.begin,meeting.begin.validator.invalid.begin,meeting.begin.validator.invalid.java.util.Date,meeting.begin.validator.invalid,validator.invalid.com.rapidcommittee.Meeting.begin,validator.invalid.begin,validator.invalid.java.util.Date,validator.invalid]; arguments [begin,class com.rapidcommittee.Meeting,Sat Jun 09 15:29:56 EDT 2012]; default message [Property [{0}] of class [{1}] with value [{2}] does not pass custom validation]
-Field error in object 'com.rapidcommittee.Meeting' on field 'end': rejected value [Fri Jun 08 15:29:56 EDT 2012]; codes [com.rapidcommittee.Meeting.end.validator.error.com.rapidcommittee.Meeting.end,com.rapidcommittee.Meeting.end.validator.error.end,com.rapidcommittee.Meeting.end.validator.error.java.util.Date,com.rapidcommittee.Meeting.end.validator.error,meeting.end.validator.error.com.rapidcommittee.Meeting.end,meeting.end.validator.error.end,meeting.end.validator.error.java.util.Date,meeting.end.validator.error,com.rapidcommittee.Meeting.end.validator.invalid.com.rapidcommittee.Meeting.end,com.rapidcommittee.Meeting.end.validator.invalid.end,com.rapidcommittee.Meeting.end.validator.invalid.java.util.Date,com.rapidcommittee.Meeting.end.validator.invalid,meeting.end.validator.invalid.com.rapidcommittee.Meeting.end,meeting.end.validator.invalid.end,meeting.end.validator.invalid.java.util.Date,meeting.end.validator.invalid,validator.invalid.com.rapidcommittee.Meeting.end,validator.invalid.end,validator.invalid.java.util.Date,validator.invalid]; arguments [end,class com.rapidcommittee.Meeting,Fri Jun 08 15:29:56 EDT 2012]; default message [Property [{0}] of class [{1}] with value [{2}] does not pass custom validation]
---Output from timeTravellingValidationTest2--
-grails.validation.ValidationErrors: 1 errors
-Field error in object 'com.rapidcommittee.Meeting' on field 'begin': rejected value [Fri Jun 08 15:29:56 EDT 2012]; codes [com.rapidcommittee.Meeting.begin.validator.error.com.rapidcommittee.Meeting.begin,com.rapidcommittee.Meeting.begin.validator.error.begin,com.rapidcommittee.Meeting.begin.validator.error.java.util.Date,com.rapidcommittee.Meeting.begin.validator.error,meeting.begin.validator.error.com.rapidcommittee.Meeting.begin,meeting.begin.validator.error.begin,meeting.begin.validator.error.java.util.Date,meeting.begin.validator.error,com.rapidcommittee.Meeting.begin.validator.invalid.com.rapidcommittee.Meeting.begin,com.rapidcommittee.Meeting.begin.validator.invalid.begin,com.rapidcommittee.Meeting.begin.validator.invalid.java.util.Date,com.rapidcommittee.Meeting.begin.validator.invalid,meeting.begin.validator.invalid.com.rapidcommittee.Meeting.begin,meeting.begin.validator.invalid.begin,meeting.begin.validator.invalid.java.util.Date,meeting.begin.validator.invalid,validator.invalid.com.rapidcommittee.Meeting.begin,validator.invalid.begin,validator.invalid.java.util.Date,validator.invalid]; arguments [begin,class com.rapidcommittee.Meeting,Fri Jun 08 15:29:56 EDT 2012]; default message [Property [{0}] of class [{1}] with value [{2}] does not pass custom validation]
---Output from timeTravellingValidationTest3--
+  <testcase classname="com.rapidcommittee.MeetingTests" name="timeTravelingValidationTest1" time="0.67" />
+  <testcase classname="com.rapidcommittee.MeetingTests" name="timeTravelingValidationTest2" time="0.016" />
+  <testcase classname="com.rapidcommittee.MeetingTests" name="timeTravelingValidationTest3" time="0.022" />
+  <system-out><![CDATA[--Output from timeTravelingValidationTest1--
+--Output from timeTravelingValidationTest2--
+--Output from timeTravelingValidationTest3--
 ]]></system-out>
-  <system-err><![CDATA[--Output from timeTravellingValidationTest1--
---Output from timeTravellingValidationTest2--
---Output from timeTravellingValidationTest3--
+  <system-err><![CDATA[--Output from timeTravelingValidationTest1--
+--Output from timeTravelingValidationTest2--
+--Output from timeTravelingValidationTest3--
 ]]></system-err>
 </testsuite>

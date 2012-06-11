@@ -1,5 +1,5 @@
 Testsuite: com.rapidcommittee.MeetingControllerTests
-Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.602 sec
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 1.078 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,7 +7,7 @@ Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.602 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.6 sec
+Testcase: testSomething took 1.071 sec
 	FAILED
 junit.framework.AssertionFailedError: Implement me
 junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
