@@ -1,6 +1,10 @@
 Some Notes
 ==========
 
+To try it out, I created some example data in BootStrap.groovy,
+so you can login with the email joebob@rapidcommittee.com and 
+password rapCom.
+
 So I ended up getting a little creative and adding some domain 
 classes for Meetings and Users as well as Committees. 
 CommitteeMembership is the link between Users and Committees.
@@ -22,4 +26,4 @@ For the login, I did not implement any password hashing which of course
 isn't realistic, but adding a SHA/md5 codec and passing the password 
 through it before insertion and during login wouldn't be too difficult.
 
-For bonus points and convenience, I .gitignore-d *.class files.
+For bonus points and convenience, I .gitignore-d class files.
