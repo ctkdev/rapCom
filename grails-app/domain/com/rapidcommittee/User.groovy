@@ -1,12 +1,14 @@
 package com.rapidcommittee
 
 class User {
-    static constraints = {
+	static constraints = {
 		firstName(blank: false)
 		lastName(blank: false)
 		email(email: true, blank: false, nullable: false, unique: true)
 		password(password: true, blank: false)
-    }
+	}
+	
+	static hasMany = [memberships: CommitteeMembership]
 	
 	String firstName
 	String lastName
@@ -19,9 +21,23 @@ class User {
 	* in the book, grails has some built-in password
 	* functionality, so I'll leave this as is.
 	*/
-   String password
-   
+	String password
+
+	List committees() {
+		return memberships.collect{it.committee}
+	}
+	
+	List addToTeams(Committee committee) {
+		CommitteeMembership.link(this, committee)
+		return teams()
+	}
+	
+	List removeFromTeams(Committee committee) {
+		CommitteeMembership.unlink(this, committee)
+		return teams()
+	}
+	
 	String toString() {
 		"${firstName} ${lastName}"
-	} 
+	}
 }

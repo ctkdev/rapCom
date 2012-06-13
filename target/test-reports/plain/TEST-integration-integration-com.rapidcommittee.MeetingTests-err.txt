@@ -1,3 +1,0 @@
---Output from timeTravelingValidationTest1--
---Output from timeTravelingValidationTest2--
---Output from timeTravelingValidationTest3--

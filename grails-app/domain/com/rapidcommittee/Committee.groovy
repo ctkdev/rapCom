@@ -7,6 +7,7 @@ class Committee {
 	}
 	
 	static hasMany = [members: CommitteeMembership, meetings: Meeting]
+	static belongsTo = User
 	
 	String name
 	CommitteeMembership admin
