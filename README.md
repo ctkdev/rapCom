@@ -1,14 +1,14 @@
 Some Notes
 ==========
 
-To try it out, I created some example data in BootStrap.groovy,
+To try it out, I created some example data in `BootStrap.groovy`,
 so you can login with the email **joebob@rapidcommittee.com** and 
 password **rapCom**. You can also try some bad login info to see 
 a bootstrap alert message.
 
 So I ended up getting a little creative and adding some domain 
-classes for Meetings and Users as well as Committees. 
-CommitteeMembership is the link between Users and Committees.
+classes for `Meetings` and `Users` as well as `Committees`. 
+`CommitteeMembership` is the link between `Users` and `Committees`.
 
 I ended up scaffolding a lot of the CRUD operations. I'm not sure 
 if this is what you had in mind but if you want I can go back 
