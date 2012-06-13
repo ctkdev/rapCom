@@ -3,7 +3,8 @@ Some Notes
 
 To try it out, I created some example data in BootStrap.groovy,
 so you can login with the email joebob@rapidcommittee.com and 
-password rapCom.
+password rapCom. You can also try some bad login info to see 
+a bootstrap alert message.
 
 So I ended up getting a little creative and adding some domain 
 classes for Meetings and Users as well as Committees. 
