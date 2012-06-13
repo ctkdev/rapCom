@@ -7,7 +7,6 @@ class BootStrap {
     def init = { servletContext ->
 		def joe = new User(firstName: "Joe", lastName: "Bob", email: "joebob@rapidcommittee.com", password: "rapCom")
 		
-		
 		joe.save(failOnError: true)
 		
 

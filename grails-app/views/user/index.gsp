@@ -52,7 +52,7 @@
             <ul class="dropdown-menu">
               <li><a href="#">Profile</a></li>
               <li class="divider"></li>
-              <li><g:link action="logout">Sign out</g:link></li>
+              <li><g:link controller="user" action="logout">Sign out</g:link></li>
             </ul>
           </div>
           <div class="nav-collapse">
