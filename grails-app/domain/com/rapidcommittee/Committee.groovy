@@ -7,11 +7,24 @@ class Committee {
 	}
 	
 	static hasMany = [members: CommitteeMembership, meetings: Meeting]
-	static belongsTo = User
 	
 	String name
 	CommitteeMembership admin
 	
 	Date dateCreated
 	Date lastUpdated
+
+	List users() {
+		return memberships.collect{it.user}
+	}
+
+	List addToUsers(User user) {
+		CommitteeMembership.link(user, this)
+		return users()
+	}
+
+	List removeFromUsers(User user) {
+		CommitteeMembership.unlink(user, this)
+		return users()
+	}
 }

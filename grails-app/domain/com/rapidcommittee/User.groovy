@@ -10,31 +10,25 @@ class User {
 	
 	static hasMany = [memberships: CommitteeMembership]
 	
+	static fetchMode = [memberships: 'eager']
+	
 	String firstName
 	String lastName
 	String email
-	
-	/* I'm not sure whether or not this should
-	* actually be a password hash in the standard
-	* way or if grails automatically handles that
-	* for us. As far as I can tell from the examples
-	* in the book, grails has some built-in password
-	* functionality, so I'll leave this as is.
-	*/
 	String password
 
 	List committees() {
 		return memberships.collect{it.committee}
 	}
 	
-	List addToTeams(Committee committee) {
+	List addToCommittees(Committee committee) {
 		CommitteeMembership.link(this, committee)
-		return teams()
+		return committees()
 	}
 	
-	List removeFromTeams(Committee committee) {
+	List removeFromCommittees(Committee committee) {
 		CommitteeMembership.unlink(this, committee)
-		return teams()
+		return committees()
 	}
 	
 	String toString() {

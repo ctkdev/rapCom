@@ -8,17 +8,16 @@ class UserController {
 	def index = {
 		if(session.user) {
 			// logged in -> do something else
-		
+			
+			session.user.refresh()
+			
 			// like this
 			// redirect(action: "show")
 			
 			// or this
 			// render("Welcome ${session.user.toString()}")
-			for (m in session.user.memberships) {
-				println m
-			}
 			
-			[fullName: session.user.toString(), memberships: session.user.memberships]
+			[fullName: session.user.toString(), committees: session.user.committees()]
 		} else {
 			// not logged in -> redirect to login page
 			redirect(action: "login")

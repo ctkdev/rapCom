@@ -36,17 +36,17 @@
     </filter>
 
 	<!-- Hibernate many to many fix -->
-<filter>
-  <filter-name>hibernateFilter</filter-name>
-  <filter-class>
-      org.codehaus.groovy.grails.orm.hibernate.support.GrailsOpenSessionInViewFilter
-  </filter-class>
-</filter>
-<filter-mapping>
-  <filter-name>hibernateFilter</filter-name>
-  <url-pattern>/*</url-pattern>
-</filter-mapping>
-<!-- ~ Hibernate -->
+	<!-- <filter>
+		<filter-name>hibernateFilter</filter-name>
+		<filter-class>
+			org.codehaus.groovy.grails.orm.hibernate.support.GrailsOpenSessionInViewFilter
+		</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>hibernateFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> -->
+	<!-- ~ fix -->
 
     <filter-mapping>
         <filter-name>charEncodingFilter</filter-name>

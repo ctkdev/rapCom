@@ -1,9 +1,9 @@
 package com.rapidcommittee
 
 class CommitteeMembership {
-	//static belongsTo = [user:User, committee:Committee]
-	User user
-	Committee committee
+	static belongsTo = [user:User, committee:Committee]
+	//User user
+	//Committee committee
 	
 	Date dateCreated
 	

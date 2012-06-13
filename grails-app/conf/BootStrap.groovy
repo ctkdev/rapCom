@@ -10,11 +10,18 @@ class BootStrap {
 		
 		joe.save(failOnError: true)
 		
-		for (i in 1..10) {
-			def c = new Committee(name: "Committee " + i).save()
+
+		for (i in ["Board of Directors",
+					"rapidCommittee Developers Committee",
+					"Rules Committee",
+					"Evaluation Board",
+					"Marketing Board",
+					"Public Relations Committee",
+					"Fundraising Board"]) {
+			def c = new Committee(name: i).save()
 			def m = new CommitteeMembership(user: joe, committee: c).save()
 			
-			joe.addToMemberships(m)
+			CommitteeMembership.link(joe, c)
 		}
 		
 		joe.save(failOnError: true)

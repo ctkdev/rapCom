@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>${fullName} - rapidcommittee</title>
+    <title>${fullName} - rapidCommittee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -52,14 +52,12 @@
             <ul class="dropdown-menu">
               <li><a href="#">Profile</a></li>
               <li class="divider"></li>
-              <li><a href="#">Sign Out</a></li>
+              <li><g:link action="logout">Sign out</g:link></li>
             </ul>
           </div>
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -71,10 +69,9 @@
         <div class="span3">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
-              <li class="active"><a href="#">My Committees</a></li>
-              <g:each in="\${memberships}" status="i" var="membership">
-                <li><g:link controller="committee" action="show" id="\${membership.committee.id}">\${membership.committee.name}</g:link></li>
+              <li class="nav-header">My Committees</li>
+              <g:each in="${committees}" status="i" var="c">
+                <li><g:link controller="committee" action="show" id="${c.id}">${c.name}</g:link></li>
               </g:each>
             </ul>
           </div><!--/.well -->
